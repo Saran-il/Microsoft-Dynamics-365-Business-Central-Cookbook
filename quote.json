@@ -1,0 +1,2941 @@
+{
+  "version": "1.0",
+  "lang": "en-US",
+  "payloadID": "12392936_201218171814657",
+  "timestamp": "2020-12-18T17:18:14",
+  "docType": "Quote",
+  "Header": {
+    "To": {
+      "Credential": [
+        {
+          "domain": "LeSPartyID",
+          "Identity": {
+            "value": "DM-100096"
+          }
+        },
+        {
+          "domain": "PortalBuyerID",
+          "Identity": {
+            "value": "DM-100096"
+          }
+        },
+        {
+          "domain": "PartyName",
+          "Identity": {
+            "value": "Ming Wah (Singapore) Agency Pte Ltd"
+          }
+        }
+      ]
+    },
+    "From": {
+      "Credential": [
+        {
+          "domain": "LeSPartyID",
+          "Identity": {
+            "value": "V11929"
+          }
+        },
+        {
+          "domain": "PortalSupplierID",
+          "Identity": {
+            "value": "V11929"
+          }
+        },
+        {
+          "domain": "PartyName",
+          "Identity": {
+            "value": "CON-LASH SUPPLIES PTE LTD"
+          }
+        }
+      ]
+    },
+    "Sender": {
+      "Credential": {
+        "domain": "PortalID",
+        "Identity": {
+          "value": "LeS"
+        }
+      }
+    },
+    "Receiver": {
+      "Credential": {
+        "domain": "",
+        "Identity": {
+          "value": ""
+        }
+      }
+    },
+    "Attachment": []
+  },
+  "Response": {
+    "deploymentMode": "production",
+    "Quote": {
+      "QuoteHeader": {
+        "functionCode": "original",
+        "messageNumber": "104704_15000360_201218_170705480_Q_VIT200160_0780_698212_201218_171227116.xls",
+        "orderType": null,
+        "originatingSystemRef": "12392936",
+        "quoteDate": "2020-12-18",
+        "quoteID": "VIT-20-0160-(DECK)",
+        "requestRevisionNo": null,
+        "requestedDeliveryDate": "",
+        "PortOfDelivery": {
+          "formatQualifier": "UN_LOCODE",
+          "name": null,
+          "value": "QINGDAO"
+        },
+        "Vessel": {
+          "formatQualifier": "Lloyds_IMO",
+          "name": "NEW VITALITY",
+          "value": null
+        },
+        "Total": {
+          "Money": {
+            "currency": "SGD",
+            "value": "9,774.32",
+            "alternateAmount": "9,774.32"
+          },
+          "Discount": {
+            "discountAmountPercent": "0",
+            "Money": {
+              "currency": "SGD",
+              "value": "0",
+              "alternateAmount": "0"
+            },
+            "DiscountAmountPercent": "0"
+          },
+          "Amount": {
+            "lineItemAmount": "9,134.88"
+          }
+        },
+        "ShipTo": null,
+        "BillTo": null,
+        "SellTo": null,
+        "Equipment": null,
+        "Comments": {
+          "format": "txt",
+          "lang": "en",
+          "value": ""
+        },
+        "Contact": [
+          {
+            "role": "customerService",
+            "userName": null,
+            "Name": {
+              "lang": "en",
+              "value": "CON-LASH SUPPLIES PTE LTD"
+            },
+            "Email": "RPA@CON-LASH.COM,CONLASH@SINGNET.COM.SG",
+            "Phone": {
+              "TelephoneNumber": {
+                "CountryCode": null,
+                "AreaOrCityCode": null,
+                "Number": null
+              }
+            },
+            "Fax": {
+              "TelephoneNumber": {
+                "CountryCode": null,
+                "AreaOrCityCode": null,
+                "Number": null
+              }
+            }
+          }
+        ],
+        "supplierQuoteID": "SQ124900"
+      },
+      "Item": [
+        {
+          "lineNumber": "1",
+          "originatingSystemRef": "30416049",
+          "quantity": "4",
+          "requestLineNumber": "1",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470195"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "CARBON PAPER BLACK A-3 297X420MM 100SHT"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "13.32",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "53.28"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "2",
+          "originatingSystemRef": "30416050",
+          "quantity": "10",
+          "requestLineNumber": "2",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470201"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FILE HARD COVER W/ARCH HOLDER & FASTENER 307X282X85MM \"A-Z\""
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "2.45",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "24.5"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "3",
+          "originatingSystemRef": "30416051",
+          "quantity": "20",
+          "requestLineNumber": "3",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470319"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "CLIP BOARD PLASTIC VERTICAL A-4"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "2",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "40"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "4",
+          "originatingSystemRef": "30416052",
+          "quantity": "20",
+          "requestLineNumber": "4",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470327"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "CLIP BOARD PLASTIC HORIZONTAL A-4 **OFFER PVC COVER**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.56",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "31.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "5",
+          "originatingSystemRef": "30416053",
+          "quantity": "50",
+          "requestLineNumber": "5",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470425"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "ENVELOPE KRAFT PAPER W/STRING FLAT 240X332MM"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.34",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "17"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "6",
+          "originatingSystemRef": "30416054",
+          "quantity": "100",
+          "requestLineNumber": "6",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470453"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "ENVELOPES WHITE LARGE 10'S"
+            },
+            "UnitOfMeasure": {
+              "other": "pkt",
+              "value": "PKT"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.67",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "67"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "7",
+          "originatingSystemRef": "30416055",
+          "quantity": "4",
+          "requestLineNumber": "7",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470503"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PENCIL FOR OFFICE USE HB WITHOUT RUBBER TIP **OFFER STADTLER**"
+            },
+            "UnitOfMeasure": {
+              "other": "doz",
+              "value": "DOZ"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.08",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "16.32"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "8",
+          "originatingSystemRef": "30416056",
+          "quantity": "30",
+          "requestLineNumber": "8",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471091"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "GLUE STICK 6.2GRM"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.39",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "11.7"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "9",
+          "originatingSystemRef": "30416057",
+          "quantity": "20",
+          "requestLineNumber": "9",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471105"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "STAPLE FOR NO.10 HAND TYPE **OFFER MAX JAPAN 1000'S**"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.45",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "9"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "10",
+          "originatingSystemRef": "30416058",
+          "quantity": "20",
+          "requestLineNumber": "10",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471106"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "STAPLE FOR NO.3 DESK TYPE **OFFER MAX JAPAN 1000'S**"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.95",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "19"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "11",
+          "originatingSystemRef": "30416059",
+          "quantity": "60",
+          "requestLineNumber": "11",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470603"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "BALL-POINT PENCIL BLACK **OFFER PILOT**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "60"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "12",
+          "originatingSystemRef": "30416060",
+          "quantity": "60",
+          "requestLineNumber": "12",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471141"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FOLD BACK CLIP 19MM"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.05",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "3"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "13",
+          "originatingSystemRef": "30416061",
+          "quantity": "60",
+          "requestLineNumber": "13",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471143"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FOLD BACK CLIP 32MM"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.09",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "5.4"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "14",
+          "originatingSystemRef": "30416062",
+          "quantity": "20",
+          "requestLineNumber": "14",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471216"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "TAPE FOR DYMO TAPE WRITER 6MM ORANGE **OFFER 9MM MHK RED**"
+            },
+            "UnitOfMeasure": {
+              "other": "rls",
+              "value": "RLS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.34",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "26.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "15",
+          "originatingSystemRef": "30416063",
+          "quantity": "20",
+          "requestLineNumber": "15",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471275"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "TAPE SEALING KRAFT PAPER 75MM **OFFER L8MTR**"
+            },
+            "UnitOfMeasure": {
+              "other": "rls",
+              "value": "RLS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.84",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "16.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "16",
+          "originatingSystemRef": "30416064",
+          "quantity": "10",
+          "requestLineNumber": "16",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471313"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "INDEX PAPER 22N 10X22MM 90'S **OFFER KOKUYO JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "pkt",
+              "value": "PKT"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "2",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "20"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "17",
+          "originatingSystemRef": "30416065",
+          "quantity": "20",
+          "requestLineNumber": "17",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471319"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "LABEL SELF ADHESIVE 38X87MM 57'S"
+            },
+            "UnitOfMeasure": {
+              "other": "pkt",
+              "value": "PKT"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.56",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "31.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "18",
+          "originatingSystemRef": "30416066",
+          "quantity": "20",
+          "requestLineNumber": "18",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471320"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "LABEL SELF ADHESIVE 43X120MM 38'S"
+            },
+            "UnitOfMeasure": {
+              "other": "pkt",
+              "value": "PKT"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.56",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "31.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "19",
+          "originatingSystemRef": "30416067",
+          "quantity": "30",
+          "requestLineNumber": "19",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471648"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "WHITEBOARD MARKER BLACK **OFFER PENTEL JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.45",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "43.5"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "20",
+          "originatingSystemRef": "30416068",
+          "quantity": "30",
+          "requestLineNumber": "20",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471646"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "WHITEBOARD MARKER RED **OFFER PENTEL JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.45",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "43.5"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "21",
+          "originatingSystemRef": "30416069",
+          "quantity": "30",
+          "requestLineNumber": "21",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471118"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PAPER CLIP NO.1 (28MM) 100PCS"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.28",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "8.4"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "22",
+          "originatingSystemRef": "30416070",
+          "quantity": "10",
+          "requestLineNumber": "22",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "471120"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PAPER CLIP NO.10 (50MM) 100PCS"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.67",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "6.7"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "23",
+          "originatingSystemRef": "30416071",
+          "quantity": "20",
+          "requestLineNumber": "23",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "DELI STICKY NOTES DELI STICKY NOTES, STICKY NOTES, 4 COLORS 7151 76í76MM/400 PAGES UNIT: PACKAGE"
+            },
+            "UnitOfMeasure": {
+              "other": "pkt",
+              "value": "PKT"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "10.88",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "217.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "24",
+          "originatingSystemRef": "30416072",
+          "quantity": "10",
+          "requestLineNumber": "24",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FOLDER CLASSIFICATION PAPER / INDEX PAPER FOLDER CLASSIFICATION PAPER / INDEX PAPER, 12 COLOR PAGING PAPER 60 SHEETS 1 PACK, SIZE: A4 **OFFER PLASTIC**"
+            },
+            "UnitOfMeasure": {
+              "other": "pkt",
+              "value": "PKT"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "2.78",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "27.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "25",
+          "originatingSystemRef": "30416073",
+          "quantity": "20",
+          "requestLineNumber": "25",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "CARTRIDGE CANON CARTRIDGE 337 CARTRIDGE CANON CRG337 GENUINE FOR CANON MF240"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "85.47",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "1,709.4"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "26",
+          "originatingSystemRef": "30416074",
+          "quantity": "20",
+          "requestLineNumber": "26",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "RECORDING PAPERS FOR INM-C RECORDING PAPERS FOR INM-C, JRC NKG-900 PRINTER, 210 MM **OFFER 210MMX175MTR JUMBO**"
+            },
+            "UnitOfMeasure": {
+              "other": "roll",
+              "value": "ROLL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "5.33",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "106.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "27",
+          "originatingSystemRef": "30416075",
+          "quantity": "10",
+          "requestLineNumber": "27",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "RECORDING PAPERS FOR WEATHER FAX RECORDING PAPERS FOR WEATHER FAX MODEL: JRC JAX-9B THERMAL PRINTER (260MM X DIA50MM X 25M) **OFFER JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "roll",
+              "value": "ROLL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "19.98",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "199.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "28",
+          "originatingSystemRef": "30416076",
+          "quantity": "10",
+          "requestLineNumber": "28",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "RECORDING PAPERS FOR ENGINE TELEGRAPH RECORDER  RECORDER, (82MM X F42MM 20M ) BRAND: KONGSBERG MODEL:OPU AC-C20 **OFFER JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "roll",
+              "value": "ROLL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "7.22",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "72.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "29",
+          "originatingSystemRef": "30416077",
+          "quantity": "5",
+          "requestLineNumber": "29",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "472186"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "COPY PAPER PLAIN A-4 70G 500SHT **QUOTED 5PKT PER BOX**"
+            },
+            "UnitOfMeasure": {
+              "other": "c/s",
+              "value": "C/S"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "22.2",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "111"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "30",
+          "originatingSystemRef": "30416078",
+          "quantity": "30",
+          "requestLineNumber": "30",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "INK RIBBON FOR JRC NKG-900 PRINTER INK RIBBON FOR JRC INMN-C PRINTER, MODEL NKG-900"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.44",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "133.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "31",
+          "originatingSystemRef": "30416079",
+          "quantity": "30",
+          "requestLineNumber": "31",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "RECORDING PAPERS FOR COURSE RECORDER RECORDING PAPERS FOR COURSE RECORDER COURSE RECORDER, TOKIMEC CR-4 TYPE BRAND: HAIBARA 120103574, MDAE IN JAPAN **OFFER JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "roll",
+              "value": "ROLL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "5.33",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "159.9"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "32",
+          "originatingSystemRef": "30416080",
+          "quantity": "36",
+          "requestLineNumber": "32",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470623"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FELT MARKER PEN BROAD LINE BLACK **OFFER PILOT**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.45",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "52.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "33",
+          "originatingSystemRef": "30416081",
+          "quantity": "36",
+          "requestLineNumber": "33",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470622"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FELT MARKER PEN BROAD LINE RED **OFFER PILOT**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.45",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "52.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "34",
+          "originatingSystemRef": "30416082",
+          "quantity": "36",
+          "requestLineNumber": "34",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470673"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FLUORESCENT MARKING PEN YELLOW **OFFER STABILO BOSS**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.34",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "48.24"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "35",
+          "originatingSystemRef": "30416083",
+          "quantity": "36",
+          "requestLineNumber": "35",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470674"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FLUORESCENT MARKING PEN GREEN **OFFER STABILO BOSS**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.34",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "48.24"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "36",
+          "originatingSystemRef": "30416084",
+          "quantity": "36",
+          "requestLineNumber": "36",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "470675"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FLUORESCENT MARKING PEN ORANGE **OFFER STABILO BOSS**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.34",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "48.24"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "37",
+          "originatingSystemRef": "30416085",
+          "quantity": "4",
+          "requestLineNumber": "37",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "472870"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "MEMORY STICK USB 32GB"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "13.32",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "53.28"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "38",
+          "originatingSystemRef": "30416086",
+          "quantity": "10",
+          "requestLineNumber": "38",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "150283"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PILLOW FEATHER 690X460MM"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "12.77",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "127.7"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "39",
+          "originatingSystemRef": "30416087",
+          "quantity": "20",
+          "requestLineNumber": "39",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "150286"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PILLOW CASE WHITE REGULAR 750X500X200MM **OFFER 100% COTTON 200TC**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "3.89",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "77.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "40",
+          "originatingSystemRef": "30416088",
+          "quantity": "30",
+          "requestLineNumber": "40",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "170102"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "DINNER FORK STAINLESS STEEL ENGRAVED HANDLE / 2382-B **OFFER PLAIN HDL \"AMEFA\" HOLLAND**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.22",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "126.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "41",
+          "originatingSystemRef": "30416089",
+          "quantity": "30",
+          "requestLineNumber": "41",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "170103"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "TABLE SPOON STAINLESS STEEL ENGRAVED HANDLE / 2381-B **OFFER PLAIN HDL \"AMEFA\" HOLLAND**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.22",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "126.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "42",
+          "originatingSystemRef": "30416090",
+          "quantity": "15",
+          "requestLineNumber": "42",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "170337"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "COFFEE MUG CHINA #1124 MARINE QUALITY 290CC"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.67",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "10.05"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "43",
+          "originatingSystemRef": "30416091",
+          "quantity": "20",
+          "requestLineNumber": "43",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "172342"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "FRUIT KNIFE STAINLESS STEEL BLADE 95MM **OFFER JAPAN**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "3.89",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "77.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "44",
+          "originatingSystemRef": "30416092",
+          "quantity": "2",
+          "requestLineNumber": "44",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "172986"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "RACK PLATE & TRAY DISH WASHER PLASTIC 502X502X112MM **OFFER \"CAMBRO\"**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "24.42",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "48.84"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "45",
+          "originatingSystemRef": "30416093",
+          "quantity": "20",
+          "requestLineNumber": "45",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "173603"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "SOUP BOWL CHINESE STYLE PORCELAIN 205MM DIAM **OFFER \"VITRIFIED\" CHINA**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "5",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "100"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "46",
+          "originatingSystemRef": "30416094",
+          "quantity": "20",
+          "requestLineNumber": "46",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "173606"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "SOUP SPOON CHINESE STYLE PORCELAIN 140MM **OFFER \"VITRIFIED\" CHINA**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "0.56",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "11.2"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "47",
+          "originatingSystemRef": "30416095",
+          "quantity": "60",
+          "requestLineNumber": "47",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "174073"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "SPONGE WITH SCRUBBING PAD 150X90X30MM 3M"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "3.11",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "186.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "48",
+          "originatingSystemRef": "30416096",
+          "quantity": "150",
+          "requestLineNumber": "48",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "174220"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "TISSUE PAPER ECONOMY SIZE **OFFER 75'S \"KLEENEX\"**"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "1.67",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "250.5"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "49",
+          "originatingSystemRef": "30416097",
+          "quantity": "5",
+          "requestLineNumber": "49",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "999999"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "ROLL TYPE PAPER TOWELS, ECONOMIC TYPE, SIZE: 200MM X 300MTR 6 ROLLS / BOX PLEASE SUPPLY FOR MLC COMPLIANCE, THANKS. **OFFER PAPER TOWEL ROLL 200MM X 300MTR 6'S HRT \"SCOTT\" #86220**"
+            },
+            "UnitOfMeasure": {
+              "other": "box",
+              "value": "BOX"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "149.85",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "749.25"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "50",
+          "originatingSystemRef": "30416098",
+          "quantity": "8",
+          "requestLineNumber": "50",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "174255"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PAPER TOWEL DISPENSERS FOR ECOLOGO PAPER TOWEL, ROLL TYPE, SIZE: 321MM X 259MM X 410 MM PLEASE SUPPLY FOR MLC COMPLIANCE, THANKS. **OFFER PAPER TOWEL DISPENSER FOR HRT \"SCOTT\" 300MTR ROLL \"KIMBERLY CLARK\", 3-4 DAYS**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "244.2",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "1,953.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "51",
+          "originatingSystemRef": "30416099",
+          "quantity": "2",
+          "requestLineNumber": "51",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "174526"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "THERMO POT ELECTRIC 3.0LTR 220V **OFFER PANASONIC 3 LTR THERMO POT 220V**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "166.5",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "333"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "52",
+          "originatingSystemRef": "30416100",
+          "quantity": "24",
+          "requestLineNumber": "52",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "550121"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "BLEACHING WATER 1500ML **OFFER \"KAO\"**"
+            },
+            "UnitOfMeasure": {
+              "other": "btl",
+              "value": "BTL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.22",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "101.28"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "53",
+          "originatingSystemRef": "30416101",
+          "quantity": "24",
+          "requestLineNumber": "53",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "550125"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "LAUNDRY SOFTENER 2.5LTR **OFFER 2.8LTR \"DOWNY\"**"
+            },
+            "UnitOfMeasure": {
+              "other": "btl",
+              "value": "BTL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "14.21",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "341.04"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "54",
+          "originatingSystemRef": "30416102",
+          "quantity": "24",
+          "requestLineNumber": "54",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "550310"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "TOILET BOWL CLEANER DUCK NECK BOTTLE  700ML **OFFER \"DOMEX\"**"
+            },
+            "UnitOfMeasure": {
+              "other": "btl",
+              "value": "BTL"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.22",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "101.28"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "55",
+          "originatingSystemRef": "30416103",
+          "quantity": "4",
+          "requestLineNumber": "55",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "550253"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "SOAP TOILET LUX 3OZ"
+            },
+            "UnitOfMeasure": {
+              "other": "c/t",
+              "value": "C/T"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "23.04",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "92.16"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "56",
+          "originatingSystemRef": "30416104",
+          "quantity": "24",
+          "requestLineNumber": "56",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "550332"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "AIR FRESHENER 420ML **OFFER 320ML \"GLADE\" AEROSOL**"
+            },
+            "UnitOfMeasure": {
+              "other": "tin",
+              "value": "TIN"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "3.67",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "88.08"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "57",
+          "originatingSystemRef": "30416105",
+          "quantity": "2",
+          "requestLineNumber": "57",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "550625"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "INSECT KILLER AEROSOL \"KEEN\"300ML X 12TIN **OFFER \"BAYGON\"**"
+            },
+            "UnitOfMeasure": {
+              "other": "ctn",
+              "value": "CTN"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "63.94",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "127.88"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "58",
+          "originatingSystemRef": "30416106",
+          "quantity": "4",
+          "requestLineNumber": "58",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "232715"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PLYWOOD COMMON 1210X2420X9MM **OFFER 4'X8' **"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "24.42",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "97.68"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "59",
+          "originatingSystemRef": "30416107",
+          "quantity": "4",
+          "requestLineNumber": "59",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "232714"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "PLYWOOD COMMON 1210X2420X5.5MM **OFFER 4'X8' **"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "17.76",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "71.04"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "60",
+          "originatingSystemRef": "30416108",
+          "quantity": "10",
+          "requestLineNumber": "60",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "190438"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "RAIN SUIT WITH HOOD VINYL YELLOW LL **OFFER RAIN SUIT WITH HOOD CLOTH LINED RUBBER SIZE LL**"
+            },
+            "UnitOfMeasure": {
+              "other": "set",
+              "value": "SET"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "6.11",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "61.1"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "61",
+          "originatingSystemRef": "30416109",
+          "quantity": "60",
+          "requestLineNumber": "61",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "331156"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "EAR PLUG TYPE A HI-LOW NOISE **OFFER 3M USA**"
+            },
+            "UnitOfMeasure": {
+              "other": "pcs",
+              "value": "PCS"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "2.78",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "166.8"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        },
+        {
+          "lineNumber": "62",
+          "originatingSystemRef": "30416110",
+          "quantity": "20",
+          "requestLineNumber": "62",
+          "ItemID": {
+            "SupplierPartID": {
+              "value": "190101"
+            }
+          },
+          "ItemDetail": {
+            "Description": {
+              "value": "GLOVES WORKING COTTON ORDINARY 800GM"
+            },
+            "UnitOfMeasure": {
+              "other": "doz",
+              "value": "DOZ"
+            },
+            "UnitPrice": {
+              "Money": {
+                "value": "4.08",
+                "currency": "SGD"
+              }
+            }
+          },
+          "Equipment": null,
+          "Comments": {
+            "format": "txt",
+            "lang": "en",
+            "value": ""
+          },
+          "Total": {
+            "Money": {
+              "currency": "SGD",
+              "value": "81.6"
+            },
+            "Discount": {
+              "discountAmountPercent": "0",
+              "Money": {
+                "currency": "SGD",
+                "value": "0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
